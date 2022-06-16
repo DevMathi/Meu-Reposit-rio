@@ -17,10 +17,10 @@ export const HeaderStyle = styled.header`
     padding: 1rem;
     border: 2px solid var(--purple);
     color: #fff;
+    text-decoration: none;
   }
   a:hover{
     background-color: var(--purple);
-
   }
   a:visited{
     color: #fff;

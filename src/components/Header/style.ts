@@ -16,6 +16,7 @@ export const HeaderStyle = styled.header`
     border-radius: 5rem;
     padding: 1rem;
     border: 2px solid var(--purple);
+    color: #fff;
   }
   a:hover{
     background-color: var(--purple);

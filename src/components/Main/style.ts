@@ -122,6 +122,12 @@ export const MainStyle = styled.main`
         align-items: center;
         width: 100%;
         margin: 1rem 0rem;
+        a{
+          transition: all 0.3s linear;
+        }
+        a:hover{
+          transform: scale(1.2);
+        }
       }
       
     }

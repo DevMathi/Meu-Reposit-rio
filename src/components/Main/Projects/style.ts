@@ -8,7 +8,7 @@ export const ProjectsStyle = styled.div`
   align-items: center;
   max-width: 21.6175rem;
   max-height: 25rem;
-  margin-top: 1rem;
+  margin-top: 4rem;
 
 `
 export const CarouselStyle = styled(Swiper)`
@@ -51,6 +51,12 @@ export const CarouselStyle = styled(Swiper)`
           justify-content: space-around;
           width: 100%;
           align-items: center;
+          a{
+            transition: all 0.3s linear;
+          }
+          a:hover{
+            transform: scale(1.2);
+          }
         }
       }
     }

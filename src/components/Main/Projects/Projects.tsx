@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
-import { A11y, Mousewheel, Pagination } from 'swiper'
+import { A11y, Mousewheel, Navigation, Pagination } from 'swiper'
 import { CarouselStyle, ProjectsStyle } from './style'
 import PokeProjectImg from '../../../asssets/poke.png'
 import { Globe } from 'phosphor-react'
@@ -87,7 +87,6 @@ export function Projects() {
 										viewBox='0 0 24 24'
 										fill='none'
 										stroke='currentColor'
-										stroke-width='2'
 										stroke-linecap='round'
 										stroke-linejoin='round'
 									>

@@ -37,5 +37,9 @@ export const GlobalStyled = createGlobalStyle`
     input, textarea, label{
         font-family: "Poppins", sans-serif;
     }
+    button{
+        background:none;
+        border: none;
+    }
     
 `

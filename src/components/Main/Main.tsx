@@ -14,12 +14,14 @@ export function Main() {
 				<div data-aos='zoom-in' data-aos-duration='2000'>
 					<img src={MyPhoto} alt='oi' />
 				</div>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea temporibus
-					aut voluptates totam culpa? Vero illum magnam similique minima
-					adipisci quibusdam repellendus atque ipsum, soluta ab. Velit dolores
-					repellendus ad!
-				</p>
+				<div>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+						temporibus aut voluptates totam culpa? Vero illum magnam similique
+						minima adipisci quibusdam repellendus atque ipsum, soluta ab. Velit
+						dolores repellendus ad!
+					</p>
+				</div>
 			</section>
 			<section>
 				<div className='skills-container'>

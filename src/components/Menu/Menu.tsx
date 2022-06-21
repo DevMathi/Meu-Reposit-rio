@@ -61,7 +61,7 @@ export function Menu() {
 					</button>
 					<nav className='nav-menu'>
 						<ul>
-							<li className='oi'>
+							<li>
 								<a href='#about-me'>Sobre mim</a>
 							</li>
 							<li>

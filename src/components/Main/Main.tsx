@@ -11,7 +11,7 @@ export function Main() {
 				<p>Olá, Sou</p>
 				<span>Matheus</span>
 				<span>Front-End Dev</span>
-				<div data-aos='zoom-in' data-aos-duration='2000'>
+				<div>
 					<img src={MyPhoto} alt='oi' />
 				</div>
 				<div>
@@ -23,7 +23,7 @@ export function Main() {
 					</p>
 				</div>
 			</section>
-			<section>
+			<section className='skills'>
 				<div className='skills-container'>
 					<div className='skills-title'>
 						<h1>Skills</h1>

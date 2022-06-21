@@ -11,7 +11,7 @@ export const HeaderStyle = styled.header`
   color: #fff;
   font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
-  a{
+  .link-curriculo{
     font-size: 1.5rem;
     border-radius: 5rem;
     padding: 1rem;
@@ -19,11 +19,8 @@ export const HeaderStyle = styled.header`
     color: #fff;
     text-decoration: none;
   }
-  a:hover{
+  .link-curriculo:hover{
     background-color: var(--purple);
-  }
-  a:visited{
-    color: #fff;
   }
 
 `

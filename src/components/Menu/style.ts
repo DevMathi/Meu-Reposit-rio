@@ -15,32 +15,50 @@ export const MenuStyle = createGlobalStyle`
     left: 0;
     right: 0;
     height: 100vh;
-    width: 100vw;
+    width:50vw;
     button{
       position: fixed;
       top: 2.5rem;
       right: 1.5rem;
     }
     ul{
-      color: white;
       font-size:1.5rem;
       display: flex;
       align-items:center;
       flex-flow: column;
       gap: 1.5rem;
       li{
-        transition: opacity 20s;
-        opacity: 2;
+        border: 1px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+        width: 100%;
+        transition: all 1s ;
+        transform: translateX(0);
+        transition: transform 1s;
+        a{
+          color: var(--purple);
+          border: none;
+          padding: 0;
+        }
+        a:active{
+          color: none;
+        }
       }
       li:hover{
-        color: var(--purple);
+        background-color: var(--purple);
+        a{
+          color: #fff;
+        }
       }
     }
+    
   }
   .closed{
     position: relative;
-    transform: translateY(-100%) translateX(-100%);
-    transition: transform 1s ;
+    transform: translateY(-100%) ;
+    transition: transform 1.5s ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,13 +70,33 @@ export const MenuStyle = createGlobalStyle`
     left: 0;
     right: 0;
     height: 100vh;
-    width: 100vw;
-    div{
-      display: none;
+    width: 50vw;
+    button{
+      position: fixed;
+      top: 2.5rem;
+      right: 1.5rem;
     }
-    li{
-      opacity: 0;
+    nav{
+      ul{
+        font-size:1.5rem;
+        display: flex;
+        align-items:center;
+        flex-flow: column;
+        gap: 1.5rem;
+        li{
+          border: 1px solid #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0.5rem;
+          width: 100%;
+          transition: all 1s ;
+          transform: translateX(-120%);
+          transition: transform 0.5s;
+        }
+      }
     }
   }
+  
 
 `

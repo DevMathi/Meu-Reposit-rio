@@ -59,12 +59,20 @@ export function Menu() {
 							onClick={() => setMenuIsOpen(!menuIsOpen)}
 						/>
 					</button>
-					<nav>
+					<nav className='nav-menu'>
 						<ul>
-							<li>Sobre mim</li>
-							<li>Skills</li>
-							<li>Projetos</li>
-							<li>Contato</li>
+							<li className='oi'>
+								<a href='#about-me'>Sobre mim</a>
+							</li>
+							<li>
+								<a href='#skills'>Skills</a>
+							</li>
+							<li>
+								<a href='#projects-section'>Projetos</a>
+							</li>
+							<li>
+								<a href='#contact'>Contato</a>
+							</li>
 						</ul>
 					</nav>
 				</div>

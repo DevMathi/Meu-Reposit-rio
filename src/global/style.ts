@@ -41,5 +41,11 @@ export const GlobalStyled = createGlobalStyle`
         background:none;
         border: none;
     }
+    a{ 
+        text-decoration: none;
+    }
+    a:active{
+        color: none;
+    }
     
 `

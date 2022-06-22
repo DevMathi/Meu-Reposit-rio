@@ -33,12 +33,15 @@ export const MenuStyle = createGlobalStyle`
         li{
           transition: opacity 3s;
           opacity: 1;
-          
           a{
             font-size: 2rem;
             color: #fff;
+            transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
           }
           a:hover{
+            color: var(--purple);
+          }
+          .link-about-me{
             color: var(--purple);
           }
         }
@@ -47,7 +50,7 @@ export const MenuStyle = createGlobalStyle`
     .closed{
       position: relative;
       transform: translateY(-100%) translateX(-100%);
-      transition: transform 1s ;
+      transition: transform 0.3s linear ;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -83,6 +86,9 @@ export const MenuStyle = createGlobalStyle`
             color: #fff;
           }
           a:hover{
+            color: var(--purple);
+          }
+          .link-about-me{
             color: var(--purple);
           }
         }

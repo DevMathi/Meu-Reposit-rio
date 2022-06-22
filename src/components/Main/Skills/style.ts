@@ -10,5 +10,27 @@ export const SkillsStyle = styled.div`
       padding: 1rem;
     }
   }
+  @media (min-width: 768px) and (max-width: 1023px){
+    overflow: visible;
+    max-width: 24rem;
+    margin-top: 2rem;
+    ul{
+      display: flex;
+      flex-flow: wrap;
+    }
+  }
+  @media (min-width: 1023px){
+    overflow: visible;
+    max-width: 24rem;
+    margin-top: 3rem;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    ul{
+      display: flex;
+      flex-flow: wrap;
+    }
+
+  }
 
 `

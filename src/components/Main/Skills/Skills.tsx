@@ -4,7 +4,7 @@ export function Skills() {
 	return (
 		<SkillsStyle>
 			<ul>
-				<li>
+				<li data-aos='zoom-in' data-aos-duration='1000'>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						x='0px'
@@ -20,7 +20,7 @@ export function Skills() {
 						></path>
 					</svg>
 				</li>
-				<li>
+				<li data-aos='zoom-in' data-aos-duration='1500'>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						x='0px'
@@ -36,7 +36,7 @@ export function Skills() {
 						></path>
 					</svg>
 				</li>
-				<li>
+				<li data-aos='zoom-in' data-aos-duration='2000'>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						x='0px'
@@ -52,7 +52,7 @@ export function Skills() {
 						></path>
 					</svg>
 				</li>
-				<li>
+				<li data-aos='zoom-in' data-aos-duration='2500'>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						x='0px'
@@ -68,7 +68,7 @@ export function Skills() {
 						></path>
 					</svg>
 				</li>
-				<li>
+				<li data-aos='zoom-in' data-aos-duration='3000'>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						x='0px'
@@ -84,7 +84,7 @@ export function Skills() {
 						></path>
 					</svg>
 				</li>
-				<li>
+				<li data-aos='zoom-in' data-aos-duration='3000'>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						x='0px'

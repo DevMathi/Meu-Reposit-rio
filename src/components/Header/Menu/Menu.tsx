@@ -1,5 +1,5 @@
 import { X } from 'phosphor-react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { MenuStyle } from './style'
 
 export function Menu() {
@@ -62,16 +62,27 @@ export function Menu() {
 					<nav className='nav-menu'>
 						<ul>
 							<li>
-								<a href='#about-me'>Sobre mim</a>
+								<a href='#about-me' onClick={() => setMenuIsOpen(!menuIsOpen)}>
+									Sobre mim
+								</a>
 							</li>
 							<li>
-								<a href='#skills'>Skills</a>
+								<a href='#skills' onClick={() => setMenuIsOpen(!menuIsOpen)}>
+									Skills
+								</a>
 							</li>
 							<li>
-								<a href='#projects-section'>Projetos</a>
+								<a
+									href='#projects-section'
+									onClick={() => setMenuIsOpen(!menuIsOpen)}
+								>
+									Projetos
+								</a>
 							</li>
 							<li>
-								<a href='#contact'>Contato</a>
+								<a href='#contact' onClick={() => setMenuIsOpen(!menuIsOpen)}>
+									Contato
+								</a>
 							</li>
 						</ul>
 					</nav>

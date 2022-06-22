@@ -14,7 +14,7 @@ export const MainStyle = styled.main`
     align-items: center;
     flex-flow: column;
     gap: 1rem;
-    div{
+    .container-about{
       padding: 1rem;
     }
     img{
@@ -34,6 +34,49 @@ export const MainStyle = styled.main`
       font-size: 2.5rem;
       color: var(--purple);
     }
+    @media(min-width:1023px){
+      padding-top: 10rem
+    }
+  }
+  @media(min-width:1023px){
+      flex-flow: column;
+      max-width: 85.375rem;
+      padding: 0;
+      margin: 0 auto;
+  }
+  .container-about{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .image-container{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    .text-about-container{
+      display: flex;
+      align-items:center;
+      flex-flow: column;
+      gap: 1rem;
+    }
+    @media(min-width:1023px){
+      display: flex;
+      flex-flow: row;
+      padding: 1rem 7rem;
+      justify-content: space-around;
+      div{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+      }
+      .text-about-container{
+        flex-flow: column;
+        align-items: center;
+      }
+    }
+  }
+  .skills{
+    width: 100%;
   }
   .skills-container{
     margin: 10rem 0rem;
@@ -59,7 +102,27 @@ export const MainStyle = styled.main`
           background-color: #fff;
           width: 70vw;
           height: 1px;
+      }
+      
+    }
+    @media (min-width: 768px) and (max-width: 1023px){
+      margin: 4rem 0rem;
+    }
+    @media(min-width:1023px){
+      display: flex;
+      flex-flow: row-reverse;
+      padding: 15rem 0rem;
+      justify-content: space-around;
+      padding-left: 6rem;
+      .skills-title{
+        width: 38%;
+        &::after{
+          display: none;
         }
+        &::before{
+          display: none;
+        }
+      }
     }
   }
   .projects-section{
@@ -85,6 +148,21 @@ export const MainStyle = styled.main`
         background-color: #fff;
         width: 70vw;
         height: 1px;
+      }
+    }
+    @media(min-width:1023px){
+      width: 100%;
+      display: flex;
+      flex-flow: row;
+      justify-content: space-around;
+      .projects-title{
+        width: 38%;
+        &::before{
+          display: none;
+        }
+        &::after{
+          display: none;
+        }
       }
     }
   }
@@ -130,6 +208,16 @@ export const MainStyle = styled.main`
         }
       }
       
+    }
+    @media(min-width:1023px){
+      .contact-title{
+        &::after{
+          display: none;
+        }
+        &::before{
+          display: none;
+        }
+      }
     }
   }
 `

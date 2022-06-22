@@ -15,6 +15,7 @@ export const GlobalStyled = createGlobalStyle`
         padding: 0;
         list-style: none;
         box-sizing: border-box;
+        scroll-behavior: smooth;
     }
     html{
         @media (max-width: 1080px){
@@ -46,6 +47,12 @@ export const GlobalStyled = createGlobalStyle`
     }
     a:active{
         color: none;
+    }
+    p{
+        font-size: 1.25rem;
+        color: white;
+        line-height: 1.7;
+        text-align: center;
     }
     
 `

@@ -5,45 +5,106 @@ import { Projects } from './Projects/Projects'
 import { DiscordLogo, LinkedinLogo, WhatsappLogo } from 'phosphor-react'
 
 export function Main() {
+	const isMobile = window.screen.width
 	return (
 		<MainStyle>
-			<section className='about-me'>
-				<p>Olá, Sou</p>
-				<span>Matheus</span>
-				<span>Front-End Dev</span>
-				<div>
-					<img src={MyPhoto} alt='oi' />
+			<section className='about-me' id='about-me'>
+				<div className='container-about'>
+					<p>Olá, Sou</p>
+					<span>Matheus</span>
 				</div>
-				<div>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-						temporibus aut voluptates totam culpa? Vero illum magnam similique
-						minima adipisci quibusdam repellendus atque ipsum, soluta ab. Velit
-						dolores repellendus ad!
-					</p>
-				</div>
-			</section>
-			<section className='skills'>
-				<div className='skills-container'>
-					<div className='skills-title'>
-						<h1>Skills</h1>
+				<div className='image-container'>
+					<div data-aos='zoom-in' data-aos-duration='2000'>
+						<img src={MyPhoto} alt='Minha foto' />
 					</div>
-					<Skills />
+					<div className='text-about-container'>
+						<span data-aos='fade-down' data-aos-duration='2000'>
+							Front-End Dev
+						</span>
+						<p data-aos='fade-up' data-aos-duration='2000'>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+							temporibus aut voluptates totam culpa? Vero illum magnam similique
+							minima adipisci quibusdam repellendus atque ipsum, soluta ab.
+							Velit dolores repellendus ad!
+						</p>
+					</div>
 				</div>
 			</section>
-			<section className='projects-section'>
-				<div className='projects-title'>
-					<h1>Projetos</h1>
-				</div>
-				<div>
-					<Projects />
-				</div>
+			<section className='skills' id='skills'>
+				{isMobile < 1023 ? (
+					<>
+						<div className='skills-container'>
+							<div className='skills-title'>
+								<h1 data-aos='fade-down' data-aos-duration='2000'>
+									Skills
+								</h1>
+							</div>
+							<Skills />
+						</div>
+					</>
+				) : (
+					<>
+						<div className='skills-container'>
+							<div className='skills-title'>
+								<div>
+									<h1 data-aos='fade-down' data-aos-duration='2000'>
+										Skills
+									</h1>
+								</div>
+								<div>
+									<p data-aos='fade-left' data-aos-duration='2000'>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+										temporibus aut voluptates totam culpa? Vero illum magnam
+										similique minima adipisci quibusdam repellendus atque ipsum,
+										soluta ab. Velit dolores repellendus ad!
+									</p>
+								</div>
+							</div>
+							<Skills />
+						</div>
+					</>
+				)}
 			</section>
-			<section className='contact'>
+			<section className='projects-section' id='projects-section'>
+				{isMobile < 1023 ? (
+					<>
+						<div className='projects-title'>
+							<h1 data-aos='fade-down' data-aos-duration='2000'>
+								Projetos
+							</h1>
+						</div>
+						<div data-aos='zoom-in' data-aos-duration='2000'>
+							<Projects />
+						</div>
+					</>
+				) : (
+					<>
+						<div className='projects-title'>
+							<h1 data-aos='fade-down' data-aos-duration='2000'>
+								Projetos
+							</h1>
+							<p data-aos='fade-right' data-aos-duration='2000'>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+								temporibus aut voluptates totam culpa? Vero illum magnam
+								similique minima adipisci quibusdam repellendus atque ipsum,
+								soluta ab. Velit dolores repellendus ad!
+							</p>
+						</div>
+						<div data-aos='zoom-in' data-aos-duration='2000'>
+							<Projects />
+						</div>
+					</>
+				)}
+			</section>
+			<section className='contact' id='contact'>
 				<div className='contact-title'>
 					<h1>Contato</h1>
 				</div>
-				<div className='contact-icons'>
+				<div
+					className='contact-icons'
+					data-aos='flip-up'
+					data-aos-duration='2000'
+				>
 					<div>
 						<a
 							href='https://www.linkedin.com/in/matheus-oliveira-687671217/'

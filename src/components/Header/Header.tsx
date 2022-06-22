@@ -13,16 +13,16 @@ export function Header() {
 					<nav>
 						<ul>
 							<li>
-								<a href=''>Sobre mim</a>
+								<a href='#about-me'>Sobre mim</a>
 							</li>
 							<li>
-								<a href=''>Skills</a>
+								<a href='#skills'>Skills</a>
 							</li>
 							<li>
-								<a href=''>Projetos</a>
+								<a href='#projects-section'>Projetos</a>
 							</li>
 							<li>
-								<a href=''>Contato</a>
+								<a href='#contact'>Contato</a>
 							</li>
 						</ul>
 					</nav>

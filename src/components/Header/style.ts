@@ -28,7 +28,7 @@ export const HeaderStyle = styled.header`
     background-color: var(--purple);
   }
   .menu-desk{
-    width: 30%;
+    width: 42%;
     ul{
       display: flex;
       justify-content: space-around;

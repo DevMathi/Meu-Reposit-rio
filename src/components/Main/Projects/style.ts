@@ -9,6 +9,9 @@ export const ProjectsStyle = styled.div`
   max-width: 21.6175rem;
   max-height: 25rem;
   margin-top: 4rem;
+  @media(min-width: 1023px){
+    max-width: 27.6175rem;
+  }
 
 `
 export const CarouselStyle = styled(Swiper)`

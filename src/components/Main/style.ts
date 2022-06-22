@@ -35,7 +35,8 @@ export const MainStyle = styled.main`
       color: var(--purple);
     }
     @media(min-width:1023px){
-      padding-top: 10rem
+      padding-top: 3rem
+      
     }
   }
   @media(min-width:1023px){
@@ -57,12 +58,14 @@ export const MainStyle = styled.main`
       display: flex;
       align-items:center;
       flex-flow: column;
-      gap: 1rem;
+      gap: 4rem;
+      padding: 2rem 1rem;
     }
+    
     @media(min-width:1023px){
       display: flex;
       flex-flow: row;
-      padding: 1rem 7rem;
+      padding: 6rem 7rem;
       justify-content: space-around;
       div{
         display: flex;
@@ -70,6 +73,8 @@ export const MainStyle = styled.main`
         width: 50%;
       }
       .text-about-container{
+        gap: 2rem;
+        padding: 0;
         flex-flow: column;
         align-items: center;
       }
@@ -114,6 +119,7 @@ export const MainStyle = styled.main`
       padding: 15rem 0rem;
       justify-content: space-around;
       padding-left: 6rem;
+      margin: 4rem 0rem;
       .skills-title{
         width: 38%;
         &::after{

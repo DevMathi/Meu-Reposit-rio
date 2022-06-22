@@ -10,8 +10,12 @@ export function Main() {
 		<MainStyle>
 			<section className='about-me' id='about-me'>
 				<div className='container-about'>
-					<p>Olá, Sou</p>
-					<span>Matheus</span>
+					<p data-aos='fade-left' data-aos-duration='1000'>
+						Olá, Sou
+					</p>
+					<span data-aos='fade-left' data-aos-duration='1500'>
+						Matheus
+					</span>
 				</div>
 				<div className='image-container'>
 					<div data-aos='zoom-in' data-aos-duration='2000'>
@@ -35,7 +39,7 @@ export function Main() {
 					<>
 						<div className='skills-container'>
 							<div className='skills-title'>
-								<h1 data-aos='fade-down' data-aos-duration='2000'>
+								<h1 data-aos='zoom-in' data-aos-duration='1000'>
 									Skills
 								</h1>
 							</div>
@@ -69,7 +73,7 @@ export function Main() {
 				{isMobile < 1023 ? (
 					<>
 						<div className='projects-title'>
-							<h1 data-aos='fade-down' data-aos-duration='2000'>
+							<h1 data-aos='zoom-in' data-aos-duration='1000'>
 								Projetos
 							</h1>
 						</div>
@@ -98,7 +102,9 @@ export function Main() {
 			</section>
 			<section className='contact' id='contact'>
 				<div className='contact-title'>
-					<h1>Contato</h1>
+					<h1 data-aos='zoom-in' data-aos-duration='1000'>
+						Contato
+					</h1>
 				</div>
 				<div
 					className='contact-icons'

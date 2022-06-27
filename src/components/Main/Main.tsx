@@ -145,6 +145,9 @@ export function Main() {
 							</svg>
 						</a>
 					</div>
+					<div className='contact-email'>
+						<h1>mathi.oliveira@hotmail.com</h1>
+					</div>
 				</div>
 			</section>
 		</MainStyle>

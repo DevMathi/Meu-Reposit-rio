@@ -7,7 +7,18 @@ export const SkillsStyle = styled.div`
   ul{
     display: flex;
     li{
+      display: flex;
+      flex-flow: column;
+      align-items: center;
       padding: 1rem;
+      min-width: 8rem;
+      max-width: 8rem;
+      svg{
+        transition: transform 0.2s linear;
+      }
+      svg:hover{
+        transform: scale(1.2);
+      }
     }
   }
   @media (min-width: 768px) and (max-width: 1023px){
@@ -30,6 +41,10 @@ export const SkillsStyle = styled.div`
       display: flex;
       flex-flow: wrap;
     }
+    li{
+      gap: 1rem;
+    }
+    
 
   }
 

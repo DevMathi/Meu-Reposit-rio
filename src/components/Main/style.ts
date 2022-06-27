@@ -15,7 +15,7 @@ export const MainStyle = styled.main`
     flex-flow: column;
     gap: 1rem;
     .container-about{
-      padding: 1rem;
+      padding: 5rem 1rem;
     }
     img{
       width: 12rem;
@@ -59,7 +59,7 @@ export const MainStyle = styled.main`
       align-items:center;
       flex-flow: column;
       gap: 4rem;
-      padding: 2rem 1rem;
+      padding: 2rem 1rem;  
     }
     
     @media(min-width:1023px){
@@ -82,16 +82,27 @@ export const MainStyle = styled.main`
   }
   .skills{
     width: 100%;
+    @media (min-width: 1023px){
+      margin: 15rem 0rem;
+    }
   }
   .skills-container{
-    margin: 10rem 0rem;
+    margin-top: 10rem ;
+    margin-bottom: 20rem;
     display: flex;
     flex-flow: column;
     align-items: center;
+    @media(min-width: 1023px){
+      padding: 3rem 0rem;
+      box-shadow: -60px 53px 0px -11px purple;
+      border-radius: 0;
+      background-color: black;
+    }
     .skills-title{
       display: flex;
       align-items: center;
       flex-flow: column;
+      gap: 2rem;
       &::before{
           content: "";
           display: inline;
@@ -116,10 +127,7 @@ export const MainStyle = styled.main`
     @media(min-width:1023px){
       display: flex;
       flex-flow: row-reverse;
-      padding: 15rem 0rem;
       justify-content: space-around;
-      padding-left: 6rem;
-      margin: 4rem 0rem;
       .skills-title{
         width: 38%;
         &::after{
@@ -135,10 +143,18 @@ export const MainStyle = styled.main`
     display: flex;
     flex-flow: column;
     align-items: center;
+    padding: 3rem 0rem;
+    border-radius: 2rem;
+    @media (min-width: 1023px){
+      box-shadow: 53px -61px 0px -10px purple;
+      border-radius: 0;
+      background-color: black;
+    }
     .projects-title{
       display: flex;
       flex-flow: column;
       align-items: center;
+      gap: 2rem;
       &::before{
         content: "";
         display: inline;
@@ -174,10 +190,17 @@ export const MainStyle = styled.main`
   }
   .contact{
     margin-top: 10rem;
+    h1{
+      font-size: 1.5rem;
+    }
+    .contact-email{
+      padding: 2rem 0rem;
+    }
     .contact-title{
       display: flex;
       align-items: center;
       flex-flow: column;
+      
       &::before{
         content: "";
         display: inline;

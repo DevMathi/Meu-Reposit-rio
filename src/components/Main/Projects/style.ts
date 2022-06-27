@@ -6,26 +6,25 @@ export const ProjectsStyle = styled.div`
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 21.6175rem;
   max-height: 25rem;
   margin-top: 4rem;
-  @media(min-width: 1023px){
-    max-width: 27.6175rem;
-  }
-
 `
 export const CarouselStyle = styled(Swiper)`
   .slide{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    padding: 0rem 1rem;
     div{
       img{
-        width: 100%;
         display: block;
         border-radius: 1rem 1rem 0rem 0rem;
+        @media(max-width:1023px){
+          max-width: 21rem;
+      
+        }
+      }
+      .nlw-image{
+        border: 1px solid var(--purple);
       }
       .project-description{
         display: flex;
@@ -63,7 +62,18 @@ export const CarouselStyle = styled(Swiper)`
         }
       }
     }
-    
+    .produzindo{
+      height: 194px;
+      background-color: black;
+      width: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 1rem 1rem 0rem 0rem;
+      @media(max-width:1023px){
+        max-width: 21rem;
+      }
+    }
   }
 `
 

@@ -29,11 +29,14 @@ export const HeaderStyle = styled.header`
   }
   .menu-desk{
     width: 42%;
+    height: 100%;
     ul{
+      height: 100%;
       display: flex;
       justify-content: space-around;
       align-items: center;
       li{
+        height: 100%;
         padding: 1rem;
       }
       a{
@@ -42,7 +45,7 @@ export const HeaderStyle = styled.header`
       }
       a:hover{
         color: #b785e2;
-        filter: brightness(1.2);
+        border-bottom: 2px solid var(--purple);
       }
     }
   }

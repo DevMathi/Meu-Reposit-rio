@@ -88,7 +88,7 @@ export const MainStyle = styled.main`
   }
   .skills-container{
     margin-top: 10rem ;
-    margin-bottom: 20rem;
+    margin-bottom: 5rem;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -97,6 +97,7 @@ export const MainStyle = styled.main`
       box-shadow: -60px 53px 0px -11px purple;
       border-radius: 0;
       background-color: black;
+      margin-bottom: 20rem;
     }
     .skills-title{
       display: flex;

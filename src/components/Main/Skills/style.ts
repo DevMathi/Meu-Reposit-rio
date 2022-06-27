@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const SkillsStyle = styled.div`
-  overflow: scroll;
   max-width: 20.6175rem;
   margin-top: 7rem;
   ul{
     display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
     li{
       display: flex;
       flex-flow: column;

@@ -2,7 +2,6 @@ import { List } from "phosphor-react";
 import styled from "styled-components";
 
 export const HeaderStyle = styled.header`
-  padding: 1rem 1.5rem;
   background-color: transparent;
   display: flex;
   align-items: center;
@@ -16,6 +15,7 @@ export const HeaderStyle = styled.header`
   z-index: 2;
   box-shadow: rgb(0 0 0 / 30%) 0px 10px 30px -10px;
   backdrop-filter: blur(10px);
+  height: 88px;
   .link-curriculo{
     font-size: 1.5rem;
     border-radius: 5rem;
@@ -30,22 +30,25 @@ export const HeaderStyle = styled.header`
   .menu-desk{
     width: 42%;
     height: 100%;
+    nav{
+      height: 100%;
+    }
     ul{
       height: 100%;
       display: flex;
       justify-content: space-around;
       align-items: center;
       li{
+        display: flex;
+        align-items: center;
         height: 100%;
         padding: 1rem;
+        &:hover{
+          border-bottom: 1px solid var(--purple);
+        }
       }
       a{
         color: #fff;
-        transition: color 1s;
-      }
-      a:hover{
-        color: #b785e2;
-        border-bottom: 2px solid var(--purple);
       }
     }
   }

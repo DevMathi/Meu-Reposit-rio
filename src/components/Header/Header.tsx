@@ -28,12 +28,14 @@ export function Header() {
 					</nav>
 				</div>
 			)}
-			<a
-				href='file:///C:/Users/Matheus/Desktop/Meu%20CV/C%C3%B3pia/Meu%20CV.pdf'
-				className='link-curriculo'
-			>
-				Currículo
-			</a>
+			<div className='curriculo-button'>
+				<a
+					href='file:///C:/Users/Matheus/Desktop/Meu%20CV/C%C3%B3pia/Meu%20CV.pdf'
+					className='link-curriculo'
+				>
+					Currículo
+				</a>
+			</div>
 		</HeaderStyle>
 	)
 }

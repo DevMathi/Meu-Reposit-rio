@@ -16,6 +16,9 @@ export const HeaderStyle = styled.header`
   box-shadow: rgb(0 0 0 / 30%) 0px 10px 30px -10px;
   backdrop-filter: blur(10px);
   height: 88px;
+  @media (max-width: 1023px){
+    padding: 4rem 2rem;
+  }
   .link-curriculo{
     font-size: 1.5rem;
     border-radius: 5rem;
@@ -55,6 +58,9 @@ export const HeaderStyle = styled.header`
   @media(min-width:1023px){
     position: sticky;
     top: 0;
+    .curriculo-button{
+      padding: 2rem;
+    }
   }
 
 `

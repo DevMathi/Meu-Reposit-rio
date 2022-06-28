@@ -26,10 +26,10 @@ export function Main() {
 							Front-End Dev
 						</span>
 						<p data-aos='fade-up' data-aos-duration='2000'>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-							temporibus aut voluptates totam culpa? Vero illum magnam similique
-							minima adipisci quibusdam repellendus atque ipsum, soluta ab.
-							Velit dolores repellendus ad!
+							Olá, Meu nome é Matheus, tenho 19 anos e sou desenvolvedor
+							Front-End, construo aplicações web sempre buscando a melhor
+							experiência. Atualmente estou em busca de novos desafios e
+							conhecimentos.
 						</p>
 					</div>
 				</div>
@@ -57,10 +57,8 @@ export function Main() {
 								</div>
 								<div>
 									<p data-aos='fade-left' data-aos-duration='2000'>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-										temporibus aut voluptates totam culpa? Vero illum magnam
-										similique minima adipisci quibusdam repellendus atque ipsum,
-										soluta ab. Velit dolores repellendus ad!
+										Aqui você pode ver as tecnologias que utilizo para construir
+										minhas aplicações.
 									</p>
 								</div>
 							</div>
@@ -88,10 +86,8 @@ export function Main() {
 								Projetos
 							</h1>
 							<p data-aos='fade-right' data-aos-duration='2000'>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-								temporibus aut voluptates totam culpa? Vero illum magnam
-								similique minima adipisci quibusdam repellendus atque ipsum,
-								soluta ab. Velit dolores repellendus ad!
+								Este são alguns dos projetos desenvolvidos por mim, e alguns
+								ainda estão em produção.
 							</p>
 						</div>
 						<div data-aos='zoom-in' data-aos-duration='2000'>

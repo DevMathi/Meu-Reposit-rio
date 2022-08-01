@@ -1,6 +1,6 @@
-import { useEffect } from 'react'
+import MyCv from '../../asssets/Meucv.pdf'
 import { Menu } from './Menu/Menu'
-import { ListStyle, HeaderStyle } from './style'
+import { HeaderStyle } from './style'
 
 export function Header() {
 	const isMobile = window.screen.width
@@ -29,10 +29,7 @@ export function Header() {
 				</div>
 			)}
 			<div className='curriculo-button'>
-				<a
-					href='file:///C:/Users/Matheus/Desktop/Meu%20CV/C%C3%B3pia/Meu%20CV.pdf'
-					className='link-curriculo'
-				>
+				<a href={MyCv} className='link-curriculo' download>
 					Currículo
 				</a>
 			</div>

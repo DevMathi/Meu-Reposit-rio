@@ -29,7 +29,7 @@ export function Header() {
 				</div>
 			)}
 			<div className='curriculo-button'>
-				<a href={MyCv} className='link-curriculo' download>
+				<a href={MyCv} className='link-curriculo'>
 					Currículo
 				</a>
 			</div>

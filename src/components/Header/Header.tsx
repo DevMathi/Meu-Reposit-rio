@@ -30,7 +30,7 @@ export function Header() {
 			)}
 			<div className='curriculo-button'>
 				<a
-					href='https://drive.google.com/file/d/1igDkpFg9tLfe_wvEyV2i8q57BNXw3-el/view?usp=sharing'
+					href='https://docs.google.com/document/d/1kSwCZ4P17d9zel2o7pPVlqari5FLovKaY72Hq5BDsOA/edit?usp=sharing'
 					className='link-curriculo'
 				>
 					Currículo

@@ -30,7 +30,7 @@ export function Header() {
 			)}
 			<div className='curriculo-button'>
 				<a
-					href='https://portfolio-mu-one-18.vercel.app/'
+					href='https://drive.google.com/file/d/1vVjsYrE-HmZKFHdjltDTQndnxtgQQmSH/view?usp=sharing'
 					className='link-curriculo'
 				>
 					Currículo
